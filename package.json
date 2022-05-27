@@ -1,0 +1,12 @@
+{
+  "name": "horse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.0"
+  },
+  "scripts": {
+    "serve": "http-server -S -C ./certs/cert.pem -K ./certs/key.pem -o"
+  }
+}
